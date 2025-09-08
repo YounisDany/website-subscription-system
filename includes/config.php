@@ -2,6 +2,7 @@
 // إعدادات قاعدة البيانات
 define('DB_HOST', 'db.fr-pari1.bengt.wasmernet.com');
 define('DB_PORT', '10272');
+
 define('DB_NAME', 'subscription_system1');
 define('DB_USER', 'e5d3894679cf80002ca7cec82685');
 define('DB_PASS', '068be5d3-8946-7b8d-8000-c2edb328ab08');
@@ -15,7 +16,7 @@ define('CSRF_TOKEN_NAME', 'csrf_token');
 
 // إعدادات الموقع
 define('SITE_NAME', 'نظام إدارة الاشتراكات');
-define('SITE_URL', 'http://localhost/website');
+define('SITE_URL', 'https://younis.wasmer.app/');
 
 // بدء الجلسة
 if (session_status() == PHP_SESSION_NONE) {
