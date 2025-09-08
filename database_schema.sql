@@ -1,6 +1,6 @@
 -- إنشاء قاعدة البيانات
-CREATE DATABASE IF NOT EXISTS subscription_system CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE subscription_system;
+CREATE DATABASE IF NOT EXISTS subscription_system1 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE subscription_system1;
 
 -- جدول المستخدمين
 CREATE TABLE IF NOT EXISTS users (
