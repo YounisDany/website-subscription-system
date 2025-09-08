@@ -1,9 +1,9 @@
 <?php
 // إعدادات قاعدة البيانات
 define('DB_HOST', 'db.fr-pari1.bengt.wasmernet.com');
-define('DB_NAME', 'subscription_system');
-define('DB_USER', 'e58a5a65794680009af821a62c47');
-define('DB_PASS', '068be58a-5a65-7aa9-8000-cdcad6a812fe');
+define('DB_NAME', 'subscription_system1');
+define('DB_USER', 'e5d3894679cf80002ca7cec82685');
+define('DB_PASS', '068be5d3-8946-7b8d-8000-c2edb328ab08');
 
 // إعدادات الجلسة
 define('SESSION_TIMEOUT', 3600); // مهلة الجلسة بالثواني (ساعة واحدة)
