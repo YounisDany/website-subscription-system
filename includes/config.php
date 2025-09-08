@@ -14,7 +14,7 @@ define('CSRF_TOKEN_NAME', 'csrf_token');
 
 // إعدادات الموقع
 define('SITE_NAME', 'نظام إدارة الاشتراكات');
-define('SITE_URL', 'http://localhost/website');
+define('SITE_URL', 'https://younis.wasmer.app/');
 
 // بدء الجلسة
 if (session_status() == PHP_SESSION_NONE) {
