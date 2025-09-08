@@ -30,8 +30,7 @@ if (empty($username) || empty($password)) {
 
 try {
     // الاتصال بقاعدة البيانات
-    $database = new Database();
-    $db = $database->getConnection();
+    $db = getDBConnection();
 
     if (!$db) {
         die("❌ خطأ: لم يتم الاتصال بقاعدة البيانات");
@@ -80,8 +79,4 @@ try {
 } catch (Exception $e) {
     // 🛑 عرض الخطأ بشكل مباشر أثناء التطوير
     die("🚨 خطأ في تسجيل الدخول: " . $e->getMessage());
-} finally {
-    if (isset($database)) {
-        $database->closeConnection();
-    }
 }
