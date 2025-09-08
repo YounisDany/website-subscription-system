@@ -16,7 +16,7 @@ define('CSRF_TOKEN_NAME', 'csrf_token');
 
 // إعدادات الموقع
 define('SITE_NAME', 'نظام إدارة الاشتراكات');
-define('SITE_URL', 'https://younis.wasmer.app/');
+define('SITE_URL', 'https://baydaa.wasmer.app/');
 
 // بدء الجلسة
 if (session_status() == PHP_SESSION_NONE) {
